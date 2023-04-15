@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="person-card">
+        <div class="person">
+          <div class="person-img">
+            <img src="./images/image-jeremy.png" alt="pdp" />
+          </div>
+          <p>Report for</p>
+          <h3 class="name">
+            Jeremy <br />
+            Robson
+          </h3>
+        </div>
+        <div class="sessions">
+          <div id="btn" class="daily">Daily</div>
+          <div id="btn" class="weekly">Weekly</div>
+          <div id="btn" class="monthly">Monthly</div>
+        </div>
+      </div>
+      <div class="info">
+        <div class="card-container">
+          <div class="style-card style-work">
+            <img src="./images/icon-work.svg" alt="work" />
+          </div>
+          <div class="card" data-activity="Work">
+            <div class="card-header">
+              <div class="activity">Work</div>
+              <div class="dots">
+                <img src="./images/icon-ellipsis.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="time">32hrs</div>
+            <div class="last last-week">Last Week - 36hrs</div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="style-card style-play">
+            <img src="./images/icon-play.svg" alt="work" />
+          </div>
+          <div class="card" data-activity="Play">
+            <div class="card-header">
+              <div class="activity">Play</div>
+              <div class="dots">
+                <img src="./images/icon-ellipsis.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="time">10hrs</div>
+            <div class="last last-week">Last Week - 8hrs</div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="style-card style-study">
+            <img src="./images/icon-study.svg" alt="work" />
+          </div>
+          <div class="card" data-activity="Study">
+            <div class="card-header">
+              <div class="activity">Study</div>
+              <div class="dots">
+                <img src="./images/icon-ellipsis.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="time">4hrs</div>
+            <div class="last last-week">Last Week - 7hrs</div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="style-card style-exercice">
+            <img src="./images/icon-exercise.svg" alt="work" />
+          </div>
+          <div class="card" data-activity="Exercise">
+            <div class="card-header">
+              <div class="activity">Exercise</div>
+              <div class="dots">
+                <img src="./images/icon-ellipsis.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="time">4hrs</div>
+            <div class="last last-week">Last Week - 5hrs</div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="style-card style-social">
+            <img src="./images/icon-social.svg" alt="work" />
+          </div>
+          <div class="card" data-activity="Social">
+            <div class="card-header">
+              <div class="activity">Social</div>
+              <div class="dots">
+                <img src="./images/icon-ellipsis.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="time">5hrs</div>
+            <div class="last last-week">Last Week - 10hrs</div>
+          </div>
+        </div>
+        <div class="card-container">
+          <div class="style-card style-selfcare">
+            <img src="./images/icon-self-care.svg" alt="self-care" />
+          </div>
+          <div class="card" data-activity="Self Care">
+            <div class="card-header">
+              <div class="activity">Self Care</div>
+              <div class="dots">
+                <img src="./images/icon-ellipsis.svg" alt="icon" />
+              </div>
+            </div>
+            <div class="time">2hrs</div>
+            <div class="last last-week">Last Week - 2hrs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
